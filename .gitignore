@@ -1,0 +1,42 @@
+# 媒体文件与中间渲染产物
+temp/
+output/
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# 系统与编辑器文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 本地运行时与编译缓存
+.cache/
+*.log
+
+# 本地工作台测试软链接（避免跨平台悬空链接）
+.agents/
+.claude/
